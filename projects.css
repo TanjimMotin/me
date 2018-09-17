@@ -1,12 +1,8 @@
 body{
 	margin:0;
-	background-image:url(image/coffeelap.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-
+	background-color: grey;
 
 }
-
 .container {
 	width:100%;
 	margin: 0% ;
@@ -74,7 +70,52 @@ nav a::before{
 nav a:hover::before{
 	width: 80%;
 }
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	padding-top: 10px;
+}
 
+.box {
+	background-color: lightgrey;
+	border: 2px none;
+	padding: 10px;
+}
+
+.a{
+	background-image: url(image/pro1.jpg);
+	background-size: cover;
+	
+
+}
+.b{
+	background-image: url(image/pro2.jpg);
+	background-size: cover;
+
+}
+.c{
+	background-image: url(image/pro3.jpg);
+	background-size: cover;
+
+}
+.d{
+	background-image: url(image/pro4.jpg);
+	background-size: cover;
+
+}
+.e{
+	background-image: url(image/pro5.jpg);
+	background-size: cover;
+
+}
+.f{
+	background-image: url(image/pro6.jpg);
+	background-size: cover;
+
+}
 @media only screen and (max-width: 480px) {
 	body {
 		background-color: grey;
