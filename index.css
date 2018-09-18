@@ -2,7 +2,7 @@ body{
 	margin:0;
 	background-image:url(image/coffeelap.jpg);
 	background-size: cover;
-	background-repeat: no-repeat;
+	
 
 
 }
@@ -43,7 +43,7 @@ nav li{
 	  margin-left:70px;
 	  padding-top: 30px;
     padding-bottom: 10px;
-    padding-right: 10px; 
+    padding-right: 10px;
     padding-left: 10px;
     position: relative;
 }
