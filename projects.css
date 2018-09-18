@@ -1,6 +1,6 @@
 body{
 	margin:0;
-	background-color: grey;
+	/*background-color: grey;*/
 
 }
 .container {
@@ -39,7 +39,7 @@ nav li{
 	  margin-left:70px;
 	  padding-top: 30px;
     padding-bottom: 10px;
-    padding-right: 10px; 
+    padding-right: 10px;
     padding-left: 10px;
     position: relative;
 }
@@ -72,6 +72,7 @@ nav a:hover::before{
 }
 .wrapper {
 	width: 90%;
+
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -80,7 +81,7 @@ nav a:hover::before{
 }
 
 .box {
-	background-color: lightgrey;
+	
 	border: 2px none;
 	padding: 10px;
 }
@@ -88,7 +89,7 @@ nav a:hover::before{
 .a{
 	background-image: url(image/pro1.jpg);
 	background-size: cover;
-	
+
 
 }
 .b{
@@ -119,17 +120,23 @@ nav a:hover::before{
 @media only screen and (max-width: 480px) {
 	body {
 		background-color: grey;
-		background-image: hidden;
-		/*background-repeat: no-repeat;*/}
+		}
+		.wrapper{
+		grid-template-columns: 1fr ;
+	}
+}
 
-
-@media all and (min-width: 481px) and (max-width: 767px){
+@media all and (min-width: 481px) and (max-width: 768px){
 	body {
-		background-color: none;
-
+		background-color: blue;
+	}
+	.wrapper{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+	@media all and (min-width: 768px) and (max-width: 991px){
+	body {
+		background-color: green;
 	}
 
-@media all and (min-width: 768px) and (max-width: 991px){
-	body {
-		background-color: none;
-	}
+}
